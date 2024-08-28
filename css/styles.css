@@ -837,3 +837,9 @@ input:focus + .modal-icon {
   color: #2e2f42;
   margin-bottom: 8px;
 }
+@media (min-width: 320px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 1158px) {
+}
