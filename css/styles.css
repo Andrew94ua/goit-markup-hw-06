@@ -130,8 +130,6 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-right: 76px;
-  padding: 24px 0;
 }
 
 .studio {
@@ -972,4 +970,111 @@ section {
 }
 button {
   cursor: pointer;
+}
+.burger-btn {
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+}
+.mobile-menu.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+}
+.mobile-menu-container {
+  padding: 72px 16px 40px 24px;
+}
+.menu-close {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background-color: #fff;
+  padding: 0;
+  width: 24px;
+  height: 24px;
+  top: 24px;
+  right: 24px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-list_item {
+  margin-bottom: 40px;
+}
+.menu-list_item:last-child {
+  margin-bottom: 0px;
+}
+.menu-list-item_link {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+.menu-link-color {
+  color: #404bbf;
+}
+
+.menu-info {
+  margin-top: 168px;
+}
+
+.menu-item_link {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #434455;
+  font-style: normal;
+}
+.menu-info-link-color {
+  color: #404bbf;
+}
+.menu-social-list {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-top: 48px;
+}
+
+.menu-social-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #4d5ae5;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+}
+.menu-icon-social {
+  fill: #fff;
+}
+
+.submit {
+  min-width: 169px;
+  display: block;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  cursor: pointer;
+  margin: 0 auto;
+  padding: 16px 32px;
+  border-radius: 4px;
+  border: none;
+  margin-top: 72px;
+  margin-bottom: 72px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.submit:hover,
+.submit:focus {
+  background-color: #404bbf;
 }
