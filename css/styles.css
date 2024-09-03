@@ -1004,3 +1004,7 @@ modal-submit {
     padding: 120px 0;
   }
 }
+.hamburger-icon {
+  display: block;
+  fill: #000;
+}

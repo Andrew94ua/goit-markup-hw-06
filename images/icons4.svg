@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="hamburger-icon" viewBox="0 0 32 32">
+    <path fill="#2e3042" d="M4 24h24v-4H4v4zm0-8h24v-4H4v4zm0-12v4h24V4H4z" style="fill:var(--color1, #2e3042)"/>
+  </symbol>
+</svg>
